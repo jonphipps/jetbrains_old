@@ -1,0 +1,7 @@
+<templateSet group="surround">
+  <template name="EM" value="&lt;!-- @formatter:off --&gt;&#10;&#10;$SELECTION$&#10;&lt;!-- @formatter:on --&gt;&#10;" description="Surround with @formatter:off/on comment" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

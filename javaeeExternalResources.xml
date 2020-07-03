@@ -1,0 +1,18 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <ignored-resource url="//www.w3.org/1999/xlink" />
+    <ignored-resource url="//www.w3.org/2000/svg" />
+    <ignored-resource url="&lt;?php echo $vocabulary-&gt;getUri() . $ts; ?&gt;" />
+    <ignored-resource url="http://metadataregistry.org/uri/RegStatus/" />
+    <ignored-resource url="http://metadataregistry.org/uri/profile/RegAp/" />
+    <ignored-resource url="http://metadataregistry.org/uri/profile/rdakit/" />
+    <ignored-resource url="http://metadataregistry.org/uri/profile/regap/" />
+    <ignored-resource url="http://purl.org/dc/elements/1.1/" />
+    <ignored-resource url="http://purl.org/dc/terms/" />
+    <ignored-resource url="http://www.w3.org/1999/02/22-rdf-syntax-ns#" />
+    <ignored-resource url="http://www.w3.org/2000/01/rdf-schema#" />
+    <ignored-resource url="http://www.w3.org/2002/07/owl#" />
+    <ignored-resource url="http://www.w3.org/2004/02/skos/core#" />
+    <ignored-resource url="http://xmlns.com/foaf/0.1/" />
+  </component>
+</application>

@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="PHP">
+        <added pattern="\_generated\FunctionalTesterActions.assertEquals(expected,actual,message,delta)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>

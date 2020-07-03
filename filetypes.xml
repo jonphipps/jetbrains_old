@@ -1,0 +1,51 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="microdata" type="HTML" />
+      <mapping pattern=".rdf-json" type="JSON" />
+      <mapping pattern=".jsonld" type="JSON" />
+      <mapping ext="jsonld" type="JSON" />
+      <mapping ext="rdf-json" type="JSON" />
+      <mapping pattern="imageUploader" type="JavaScript" />
+      <mapping pattern="generalView" type="JavaScript" />
+      <mapping pattern="formGenerator" type="JavaScript" />
+      <mapping pattern="thesaurusList" type="JavaScript" />
+      <mapping pattern="termEditor" type="JavaScript" />
+      <mapping pattern="helpers" type="JavaScript" />
+      <mapping pattern="treewiew" type="JavaScript" />
+      <mapping pattern=".php_cs" type="PHP" />
+      <mapping pattern="Passthru" type="PHP" />
+      <mapping ext="stub" type="PHP" />
+      <mapping pattern=".env.behat" type="PLAIN_TEXT" />
+      <mapping pattern=".env.dusk" type="PLAIN_TEXT" />
+      <mapping pattern=".env.testing" type="PLAIN_TEXT" />
+      <mapping pattern=".env.circle" type="PLAIN_TEXT" />
+      <mapping pattern=".env.dusk.dev" type="PLAIN_TEXT" />
+      <mapping pattern=".env.example" type="PLAIN_TEXT" />
+      <mapping pattern=".env.dusk.testing" type="PLAIN_TEXT" />
+      <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
+      <mapping pattern=".env.prod" type="PLAIN_TEXT" />
+      <mapping pattern=".env.travis" type="PLAIN_TEXT" />
+      <mapping pattern=".env.dev" type="PLAIN_TEXT" />
+      <mapping pattern=".htpasswd" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping ext="config" type="PLAIN_TEXT" />
+      <mapping ext="map" type="PLAIN_TEXT" />
+      <mapping ext="sqlite" type="PLAIN_TEXT" />
+      <mapping ext="bak" type="PLAIN_TEXT" />
+      <mapping ext="db" type="PLAIN_TEXT" />
+      <mapping ext="rdf" type="XML" />
+      <mapping ext="fnc" type="DBN-PSQL" />
+      <mapping ext="pkb" type="DBN-PSQL" />
+      <mapping ext="pkg" type="DBN-PSQL" />
+      <mapping ext="pks" type="DBN-PSQL" />
+      <mapping ext="prc" type="DBN-PSQL" />
+      <mapping ext="tpb" type="DBN-PSQL" />
+      <mapping ext="tpe" type="DBN-PSQL" />
+      <mapping ext="tps" type="DBN-PSQL" />
+      <mapping ext="trg" type="DBN-PSQL" />
+      <mapping ext="vw" type="DBN-SQL" />
+      <mapping pattern=".gitignore_global" type="Git file" />
+    </extensionMap>
+  </component>
+</application>

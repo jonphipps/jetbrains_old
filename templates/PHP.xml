@@ -1,0 +1,51 @@
+<templateSet group="PHP">
+  <template name="i" value="$I-&gt;$END$;" description="for codeception" toReformat="true" toShortenFQNames="true" deactivated="true" />
+  <template name="swi" value="switch ($NAME$) {&#10;    case $ONE$:&#10;        echo &quot;&quot;;&#10;        break;&#10;    case $TWO$:&#10;        echo &quot;&quot;;&#10;        break;&#10;    case $THREE$:&#10;        echo &quot;&quot;;&#10;        break;&#10;    default:&#10;       echo &quot;&quot;;&#10;}&#10;$END$" description="switch" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ONE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TWO" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="THREE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="test" value="/** @test */&#10;public function $NAME$(): void&#10;{&#10;  //given $END$&#10;  //when&#10;  //then&#10;}" description="new public test" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="snakeCase(String)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="for_num" value="for ($i = 1; $i &lt;= $MAX$; $i++) {&#10;    $END$&#10;}" description="for($i, $i=MAX, $i++) {...}" toReformat="true" toShortenFQNames="true">
+    <variable name="MAX" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="tryc" value="try {&#10;$SELECTION$&#10;}&#10;catch (Exception $e) {&#10;$END$&#10;}" description="try-catch block" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="tryf" value="try {&#10;$SELECTION$&#10;}&#10;catch (Exception $e) {&#10;$END$&#10;}&#10;finally {&#10;   //do something&#10;}" description="try-catch-finally block" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="nmsp" value="namespace $namespace$" description="Insert namespace" toReformat="true" toShortenFQNames="true">
+    <variable name="namespace" expression="fileName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="eco" value="echo &quot;$END$&quot;;" description="'echo' statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Expression" value="true" />
+    </context>
+  </template>
+  <template name="inc" value="include &quot;$END$&quot;;" description="'include' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="inco" value="include_once &quot;$END$&quot;;" description="'include_once' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+</templateSet>

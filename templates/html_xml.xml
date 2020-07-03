@@ -1,0 +1,28 @@
+<templateSet group="html/xml">
+  <template name="phpif" value="&lt;?php if($CONDITION$): ?&gt;&#10;$END$&#10;&lt;?php else: ?&gt;&#10;&lt;?php endif; ?&gt;&#10;" description="PHP if and endif tags" toReformat="true" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="phpecho" value="&lt;?php echo $END$ ?&gt;" description="PHP echo tag" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="phpfore" value="&lt;?php foreach ($ITERABLE$ as $VAR_VALUE$): ?&gt;&#10;    $END$&#10;&lt;?php endforeach; ?&gt;&#10;" description="PHP foreach" toReformat="true" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="phpforek" value="&lt;?php foreach ($ITERABLE$ as $VAR_KEY$ =&gt; $VAR_VALUE$): ?&gt;&#10;    $END$&#10;&lt;?php endforeach; ?&gt;&#10;" description="PHP foreach with key-value" toReformat="true" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

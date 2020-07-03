@@ -1,0 +1,32 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5fca22d9-8c93-4f30-82fd-052f471816cb" name="homestead" url="http://api.registry.dev">
+        <fileTransfer host="localhost" port="2222" privateKey="$USER_HOME$/homestead/.vagrant/machines/default/virtualbox/private_key" rootFolder="/home/vagrant" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c5c43e9f-d9e8-414d-b1f7-a8f1d6636a99" name="homestead-vocabserver" url="http://vocabserver.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="3c10d691-3c57-4e89-977b-ee191bb9dc95" name="homestead-registry" url="http://registry.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="4d3902c8-53f7-4cb2-8994-7869b4a308f4" name="homestead-laravel" url="http://localhost">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="cb54e704-801a-4d9d-ac29-ba95440454a3" name="api.registry.dev" url="http://api.registry.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="7c7b39b5-5e42-43c2-b9a0-1f7e39557a0f" name="uri.registry.dev" url="http://uri.registry.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="b08618e6-35f0-4a36-871b-d07dd0d8c92f" name="api-test" url="http://localhost">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
